@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.score-display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+  text-shadow: 0 0 10px #fff;
+}
+.tap-zone {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tap-button {
+  width: 160px;
+  height: 160px;
+  transition: transform 0.15s ease;
+}
+.tap-button:active {
+  transform: scale(0.9);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.menu-button {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
